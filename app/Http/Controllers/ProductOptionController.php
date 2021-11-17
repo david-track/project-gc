@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreProduct_OptionRequest;
-use App\Http\Requests\UpdateProduct_OptionRequest;
-use App\Models\Product_Option;
+use App\Http\Requests\StoreProductOptionRequest;
+use App\Http\Requests\UpdateProductOptionRequest;
+use App\Models\ProductOption;
 
 class ProductOptionController extends Controller
 {
@@ -31,10 +31,10 @@ class ProductOptionController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreProduct_OptionRequest  $request
+     * @param  \App\Http\Requests\StoreProductOptionRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreProduct_OptionRequest $request)
+    public function store(StoreProductOptionRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class ProductOptionController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Product_Option  $product_Option
+     * @param  \App\Models\ProductOption  $productOption
      * @return \Illuminate\Http\Response
      */
-    public function show(Product_Option $product_Option)
+    public function show(ProductOption $productOption)
     {
         //
     }
@@ -53,10 +53,10 @@ class ProductOptionController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Product_Option  $product_Option
+     * @param  \App\Models\ProductOption  $productOption
      * @return \Illuminate\Http\Response
      */
-    public function edit(Product_Option $product_Option)
+    public function edit(ProductOption $productOption)
     {
         //
     }
@@ -64,11 +64,11 @@ class ProductOptionController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateProduct_OptionRequest  $request
-     * @param  \App\Models\Product_Option  $product_Option
+     * @param  \App\Http\Requests\UpdateProductOptionRequest  $request
+     * @param  \App\Models\ProductOption  $productOption
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateProduct_OptionRequest $request, Product_Option $product_Option)
+    public function update(UpdateProductOptionRequest $request, ProductOption $productOption)
     {
         //
     }
@@ -76,10 +76,10 @@ class ProductOptionController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Product_Option  $product_Option
+     * @param  \App\Models\ProductOption  $productOption
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product_Option $product_Option)
+    public function destroy(ProductOption $productOption)
     {
         //
     }
