@@ -1,4 +1,8 @@
-
+2021/11/17
+- Generate migrations for categories, products, product_options and images
+	- sail artisan make:migration create_nameof_table
+	- edit migration files
+	- sail artisan migrate
 
 2021/11/16
 - Setup Laravel/git
