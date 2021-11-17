@@ -3,6 +3,8 @@
 	- sail artisan make:migration create_nameof_table
 	- edit migration files
 	- sail artisan migrate
+- Generate models, requests and resource class 
+	- sail artisan make:model NameofModel --controller --resource --requests
 
 2021/11/16
 - Setup Laravel/git
