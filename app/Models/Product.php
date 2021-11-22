@@ -16,7 +16,7 @@ class Product extends Model
     }
 
     /* Product has many ProductOption */
-    public function options()
+    public function option()
     {
         $this->hasMany(\App\Models\ProductOption::class);
     }
