@@ -12,6 +12,6 @@ class ProductOption extends Model
     /* ProductOption belongs to many Product */
     public function product()
     {
-        $this->belongsToMany(\App\Models\Product::class);
+        return $this->belongsToMany(\App\Models\Product::class);
     }
 }

@@ -12,12 +12,12 @@ class Category extends Model
     /* Category has many Product */
     public function product()
     {
-        $this->hasMany(\App\Models\Product::class);
+        return $this->hasMany(\App\Models\Product::class);
     }
 
     /* Category has many Image */
     public function image()
     {
-        $this->hasMany(\App\Models\Image::class);
+        return $this->hasMany(\App\Models\Image::class);
     }
 }
