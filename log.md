@@ -1,3 +1,10 @@
+2021/11/24
+- Redesign UML and update on github
+- Redesign database
+	- edit migration files
+	- add new migration files
+	- add models, controllers, requests
+	- sail artisan migrate:fresh
 2021/11/18
 - Create UML out of previous notes for database
 - Update migration files to conform to uml
