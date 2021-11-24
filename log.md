@@ -6,13 +6,13 @@
 	- add models, controllers, requests
 	- sail artisan migrate:fresh
 - Update Models to conform to new UML
-- 
+
 2021/11/18
 - Create UML out of previous notes for database
 - Update migration files to conform to uml
 	- edit migration files
 	- sail artisan migrate:fresh
-	- 
+	
 2021/11/17
 - Generate migrations for categories, products, product_options and images
 	- sail artisan make:migration create_nameof_table
