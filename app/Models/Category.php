@@ -15,9 +15,9 @@ class Category extends Model
         return $this->hasMany(\App\Models\Product::class);
     }
 
-    /* Category has many Image */
+    /* Category has one Image */
     public function image()
     {
-        return $this->hasMany(\App\Models\Image::class);
+        return $this->hasOne(\App\Models\Image::class);
     }
 }
