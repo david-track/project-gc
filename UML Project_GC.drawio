@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T13:00:57.253Z" agent="5.0 (X11)" etag="Sj6IhwXKPbAFhVfyC-LA" version="15.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T13:11:51.335Z" agent="5.0 (X11)" etag="AeVSbgUEgwdw8Fo5N9Gt" version="15.8.5" type="github">
   <diagram id="aAZgXuFUt1FJplC2DAY6" name="Page-1">
     <mxGraphModel dx="1262" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="vJ53SrrYjtzDRPN5ieCb-14" value="+ product_options_group_id: foreignId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-8">
           <mxGeometry y="156" width="225" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vJ53SrrYjtzDRPN5ieCb-15" value="+ categories_id: foreignId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-8">
+        <mxCell id="vJ53SrrYjtzDRPN5ieCb-15" value="+ category_id: foreignId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-8">
           <mxGeometry y="182" width="225" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vJ53SrrYjtzDRPN5ieCb-16" value="+ created_at: timestamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-8">
@@ -100,7 +100,7 @@
         <mxCell id="vJ53SrrYjtzDRPN5ieCb-32" value="+ id: bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-31">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="vJ53SrrYjtzDRPN5ieCb-33" value="+ products_id: foreignId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-31">
+        <mxCell id="vJ53SrrYjtzDRPN5ieCb-33" value="+ product_id: foreignId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-31">
           <mxGeometry y="52" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vJ53SrrYjtzDRPN5ieCb-34" value="+ options_group_id: foreignID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="vJ53SrrYjtzDRPN5ieCb-31">
