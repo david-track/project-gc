@@ -9,9 +9,9 @@ class ProductOption extends Model
 {
     use HasFactory;
 
-    /* ProductOption belongs to many Product */
-    public function product()
+    /* ProductOption belongs to many OptionsGroup */
+    public function optionsgroup()
     {
-        return $this->belongsToMany(\App\Models\Product::class);
+        return $this->belongsToMany(\App\Models\OptionsGroup::class);
     }
 }

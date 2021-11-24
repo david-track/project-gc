@@ -15,10 +15,10 @@ class Product extends Model
         return $this->belongsTo(\App\Models\Category::class);
     }
 
-    /* Product has many ProductOption */
-    public function option()
+    /* Product has one ProductOptionsGroup */
+    public function productoptionsgroup()
     {
-        return $this->hasMany(\App\Models\ProductOption::class);
+        return $this->hasOne(\App\Models\ProductOptionsGroup::class);
     }
 
     /* Product has many Image */

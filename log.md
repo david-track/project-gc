@@ -5,6 +5,7 @@
 	- add new migration files
 	- add models, controllers, requests
 	- sail artisan migrate:fresh
+- Update Models to conform to new UML
 2021/11/18
 - Create UML out of previous notes for database
 - Update migration files to conform to uml
