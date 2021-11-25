@@ -13,10 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get("/", function () {
+    return view("welcome");
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(["auth:sanctum", "verified"])
+    ->get("/dashboard", function () {
+        return view("dashboard");
+    })
+    ->name("dashboard");
+
+//Route for playground view to play around and try things
+Route::get("/playground", function () {
+    return view("playground");
+});
