@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\GroupName;
 use Illuminate\Database\Seeder;
 
 class GroupNameSeeder extends Seeder
@@ -13,6 +14,9 @@ class GroupNameSeeder extends Seeder
      */
     public function run()
     {
-        //
+        // Add factory to this seeder, Modelname::factory()->times(amount)->create();
+        GroupName::factory()
+            ->times(5)
+            ->create();
     }
 }

@@ -22,7 +22,8 @@ class OptionsGroupFactory extends Factory
     public function definition()
     {
         return [
-                //
-            ];
+            "product_option_id" => $this->faker->numberBetween(1, 5),
+            "group_name_id" => $this->faker->numberBetween(1, 5),
+        ];
     }
 }

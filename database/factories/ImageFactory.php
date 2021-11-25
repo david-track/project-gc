@@ -22,7 +22,8 @@ class ImageFactory extends Factory
     public function definition()
     {
         return [
-                //
-            ];
+            "name" => $this->faker->word(),
+            "file" => $this->faker->sentence(),
+        ];
     }
 }

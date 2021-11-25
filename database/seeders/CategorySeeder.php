@@ -14,7 +14,7 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        // Add factory to this seeder
+        // Add factory to this seeder, Modelname::factory()->times(amount)->create();
         Category::factory()
             ->times(5)
             ->create();
