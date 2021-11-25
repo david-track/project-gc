@@ -2,10 +2,18 @@
 
 namespace Database\Factories;
 
+use App\Models\ProductOptionsGroup;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ProductOptionsGroupFactory extends Factory
 {
+    /**
+     * The name of the factory's corresponding model.
+     *
+     * @var string
+     */
+    protected $model = ProductOptionsGroup::class;
+
     /**
      * Define the model's default state.
      *
@@ -14,7 +22,7 @@ class ProductOptionsGroupFactory extends Factory
     public function definition()
     {
         return [
-            //
-        ];
+                //
+            ];
     }
 }

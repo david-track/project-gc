@@ -1,3 +1,19 @@
+2021/11/25
+- Add base files for factories and seeders
+	- sail artisan make:factory ModelNameFactory
+	- sail artisan make:seeder ModelNameSeeder
+- Fill in factory files
+	- add name of corresponding model, example:
+	  protected $model = ModelName::class;
+	- dont't forget to add use App\Models\ModelName at the top if extensions don't do it automatically!
+	- fill in public function definition() which will return an array. Example can be found in automatically added UserFactory
+- Add seederfile to DatabaseSeeder. Example available in file.
+- Add factory to seeder
+	- Example in run()
+	ModelName::factory()->times(count:5)->create();
+	- dont't forget to add use App\Models\ModelName at the top if extensions don't do it automatically!
+- sail artisan migrate:fresh --seed
+
 2021/11/24
 - Redesign UML and update on github
 - Redesign database
